@@ -6,4 +6,7 @@
 
 # Global Loader
 
-```kskakakka```
+```lua
+
+Waiting...
+```
