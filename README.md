@@ -1,14 +1,21 @@
-# TRon VOid Hub Github
+# White X Hub
 
-• TRon VOid Hub By: R I G B Y [@Kassio113](discord.gg/eeTwpuGaVa)
+• Owner: R I G B Y (@Kassio113)
 
-• [Discord Server](discord.gg/eeTwpuGaVa)
+• [Join Discord Server](discord.gg/eeTwpuGaVa)
+
+• Supported Games
+
+Blox Fruits🟢
+Kaitun Blox Fruits🔴 (Comming Soon)
+Auto Bounty Blox Fruits🔴 (Comming Soon)
+Universal🔴 (0 Universal Active/Comming Soon)
 
 # Global Loader
 
 ```lua
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KassioScripts/TRon-VOid-Hub-VR6/refs/heads/main/Loader.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/White-X-Dev/White-X-Hub/refs/heads/main/Universal.lua"))()
 ```
 
 ## Blox Fruits Loader
@@ -16,14 +23,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KassioScripts/TRon-VO
 
 ```lua
 
-repeat wait() until game:IsLoaded()
-getgenv().Save = "false"  --true/false
-getgenv().Tradutor = "English"  --Portuguese/English/Vietnamese
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Team = "Marines"  --Pirates/Marines
-getgenv().Key = ""  --Key On Discord
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KassioScripts/TRon-VOid-Hub-VR6/refs/heads/main/Loader.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/White-X-Dev/White-X-Hub/refs/heads/main/Blox-Fruits.lua"))()
 ```
-
-Games Supported:
-
-Blox Fruits
